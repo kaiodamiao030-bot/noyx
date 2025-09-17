@@ -77,3 +77,74 @@ a.botao-segundo:hover{
     max-width: 800px;
     height: 70px;
 }
+
+.div1{
+    overflow: hidden;
+    left: 60px;
+}
+
+.logo{
+    background-image: url('img/Noyx logo.png');
+    width: 60px;
+    height: 60px;
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+
+
+
+
+
+ul{
+    border-radius: 10px;
+    background: rgb(103, 17, 64);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li{
+    float:left;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+.dropbtn{
+    background-color: rgb(103, 17, 64);
+    color: white;
+
+}
+li a:hover, .dropdown:hover .dropbtn{
+    background: rgb(255, 128, 213);
+}
+
+li.dropdown{
+    display: inline-block
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    width: 150px;
+}
+
+.dropdown-content a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    color: white;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
